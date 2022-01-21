@@ -1,0 +1,122 @@
+/* CSS Document */
+@font-face{
+    src: url("../FONTS/Janger-Regular.ttf");
+    font-family: janger;
+}
+@font-face{
+    src: url("../FONTS/TTF/Benoa-Bold.ttf");
+    font-family: bold;
+}
+@font-face{
+    src: url("../FONTS/TTF/Benoa-Regular.ttf");
+    font-family: regular;
+}
+@font-face{
+    src: url("../FONTS/TTF/Benoa-Light.ttf");
+    font-family: light;
+}
+body{
+    background-image: url("../PHOTO LINKS/FINISHED/background.jpg");
+    height: 1000px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: bold;
+    color: #EE3481;
+}
+p{
+    font-family: regular;
+    color: #EE3481;
+}
+.navbar-nav{
+    font-family: light;
+}
+.banner img{
+    width: 60%;
+}
+.subtitle{
+    padding: 0 300px;
+    text-align: justify;
+}
+.subtitle h1{
+    letter-spacing: 5px;
+    font-size: 4em;
+    margin-top: -90px;
+    z-index: 10;
+}
+.paragraph{
+    margin-top: 30px;
+    line-height: 2em;
+}
+.chevron{
+    margin: 200px auto 50px;
+}
+.chevron2{
+    margin: 100px auto;
+}
+.animate__animated.animate__fadeInDown {
+  animate-duration: 1s;
+}
+.aboutpics img{
+    width: 100%;
+}
+.subtitle2 h1{
+    font-family: janger;
+    margin-top: 130px;
+    font-size: 4em;
+    letter-spacing: 5px;
+    line-height: 1.5em;
+}
+.paragraph2 p{
+    font-family: regular;
+    letter-spacing: 21.4px;
+    color: white;
+}
+.subtitle3 h1{
+    font-family: janger;
+    letter-spacing: 5px;
+    font-size: 4em;
+}
+.paragraph3 p{
+    font-family: regular;
+    letter-spacing: 24.4px;
+    margin-left: 16px;
+    color: white;
+}
+.subtitle4 h1{
+    font-family: janger;
+    margin-top: 120px;
+    font-size: 4em;
+    letter-spacing: 5px;
+    line-height: 1.5em;
+}
+.form-group label{
+    font-family: regular;
+    color: #EE3481;
+}
+form{
+    padding: 0 20%;
+}
+.filling{
+    border: none;
+    border-bottom: 1px solid #EE3481;
+}
+.star hr{
+    width: 40%;
+    border: 2px solid #EE3481;
+    border-radius: 5px;
+}
+.star i{
+    padding: 0 20px;
+}
+.starfix i{
+    padding-top: 10px;
+}
+.footer{
+    padding-top: 100px;
+}
